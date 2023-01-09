@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
     <div class="player">
@@ -20,7 +20,7 @@
             </div>
             <!--  CD, dia than quay quay -->
             <div class="cd">
-                <div class="cd-thumb" style="background-image: url('../../assets/img/Screenshot\ 2023-01-05\ at\ 12.13.02.png')">
+                <div class="cd-thumb" style="background-image: url('./assets/img/Screenshot\ 2023-01-05\ at\ 12.13.02.png')">
                 </div>
               </div>
             <!--  Control, phim dieu -->
@@ -85,7 +85,7 @@
       const repeatBtn = $('.btn-repeat')
       const randomBtn = $('.btn-random')
       const playList = $('.playlist');
-     
+    
   const app = { 
     currentIndex : 0,
     isPlaying : false,
@@ -96,38 +96,38 @@
       {
         name : 'Trang Giấy Trắng',
         singer : 'Phạm Trưởng',
-        path: '..//music/TrangGiayTrang-PhamTruong-2446775.mp3' ,
-        image: '../img/Screenshot\ 2023-01-05\ at\ 12.18.14.png'
+        path: './assets/music/TrangGiayTrang-PhamTruong-2446775.mp3' ,
+        image: './assets/img/Screenshot\ 2023-01-05\ at\ 12.18.14.png'
       },
       {
         name : 'Freskay OCean',
         singer : 'dsk',
-        path: '..//music/TaiNhacHay.Biz - Freskay Ocean.mp3' ,
-        image: '../img/Screenshot 2023-01-05 at 12.16.25.png'
+        path: './asseta/music/TaiNhacHay.Biz - Freskay Ocean.mp3' ,
+        image: './assets/img/Screenshot 2023-01-05 at 12.16.25.png'
       },
       {
         name : 'Biết Anh Sai',
         singer : 'Phạm Trưởng',
-        path: '..//music/test.mp3' ,
-        image: '../img/Screenshot\ 2023-01-05\ at\ 12.17.37.png'
+        path: './assets/music/test.mp3' ,
+        image: './assets/img/Screenshot\ 2023-01-05\ at\ 12.17.37.png'
       },
       {
         name : 'Đôi Khi Muốn',
         singer : 'Phạm Trưởng',
-        path: '..//music/Doi-Khi-Muon-Pham-Truong.mp3' ,
-        image: '../img/Screenshot\ 2023-01-05\ at\ 12.18.14.png' 
+        path: './assets/music/Doi-Khi-Muon-Pham-Truong.mp3' ,
+        image: './assets/img/Screenshot\ 2023-01-05\ at\ 12.18.14.png' 
       },
       {
         name : 'Nắng Và Mưa',
         singer : 'Phạm Trưởng',
-        path: '..//music/Nang-Va-Mua-Pham-Truong.mp3' ,
-        image: '../img/Screenshot 2023-01-05 at 12.16.25.png'
+        path: './assets/music/Nang-Va-Mua-Pham-Truong.mp3' ,
+        image: './assets/img/Screenshot 2023-01-05 at 12.16.25.png'
       },
       {
         name : 'Hai Ba Năm Rồi',
         singer : 'Phạm Trưởng',
-        path: '..//music/Hai-Ba-Nam-Pham-Truong.mp3' ,
-        image: '../img/Screenshot\ 2023-01-05\ at\ 12.17.37.png'
+        path: './assets/music/Hai-Ba-Nam-Pham-Truong.mp3' ,
+        image: './assets/img/Screenshot\ 2023-01-05\ at\ 12.17.37.png'
       }
     ],
     setConfig: function(key,value){
